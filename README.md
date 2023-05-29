@@ -12,7 +12,7 @@ You can use the arrow keys to manually move the player around and solve the maze
 
 If you have trouble solving the maze, you can get the AI to solve it for you using either a BFS or DFS algorithm of your choice (DFS tends to work far better since the exit is always in the bottom right corner, far away from the start). 
 
-You can also generate a heat map which displays each cell's distance from the start/end (your choice) in a gradient. To produce this gradient, I used a breadth first search algorithm combined with dynamic programming to update each cell's distance depending on its neighbors. 
+You can also generate a heat map which displays each cell's distance from the start/end (your choice) in a gradient. To produce this gradient, I used a floodfill algorithm enabled via dynamic programming to update each cell's distance depending on its neighbors. 
 
 As you or the AI moves across the grid, you can choose to display or hide all visited cells -> this visual can give you a good idea of the thinking process behind the search algorithm's decisions or help you keep track of your own progress.
 
