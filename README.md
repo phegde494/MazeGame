@@ -18,7 +18,10 @@ As you or the AI moves across the grid, you can choose to display or hide all vi
 
 To adjust the maze size, change the dimensions on line 926: Currently, it says: `MazeWorld g = new MazeWorld(20, 10);` Adjust the values however you want up to a 100x60 maze.
 
-Below is a demo of the game:
+Below is a demo of the game in which I demonstrate each of the features. Visited cells are highlighted in light blue, and their display can be turned on or off. First, I complete the maze manually. Then, I have the AI use DFS to solve the maze. Next, the AI uses BFS. Following this, I demonstrate the gradients and then create a new maze in four different ways: with a wall-knockdown animation, with horizontal bias, with vertical bias, and without any bias. You can follow the instructions on the right of the screen to do the same as you play.
+
+**Have fun playing!**
 
 
-Have fun playing!
+https://github.com/phegde494/MazeGame/assets/48624928/4bbcd889-20f2-43b3-bc54-4a1c19cde9b0
+
