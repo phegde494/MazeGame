@@ -923,7 +923,7 @@ class LeastEdge implements Comparator<Edge> {
 class ExamplesMazes {
   // test for bigbang
   void testGame(Tester t) {
-    MazeWorld g = new MazeWorld(20, 10);
+    MazeWorld g = new MazeWorld(20, 20);
     g.bigBang(1500, 800, 0.001);
   }
 
