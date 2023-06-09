@@ -16,4 +16,9 @@ You can also generate a heat map which displays each cell's distance from the st
 
 As you or the AI moves across the grid, you can choose to display or hide all visited cells -> this visual can give you a good idea of the thinking process behind the search algorithm's decisions or help you keep track of your own progress.
 
+To adjust the maze size, change the dimensions on line 926: Currently, it says: `MazeWorld g = new MazeWorld(20, 10);` Adjust the values however you want up to a 100x60 maze.
+
+Below is a demo of the game:
+
+
 Have fun playing!
