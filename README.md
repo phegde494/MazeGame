@@ -16,7 +16,8 @@ You can also generate a heat map which displays each cell's distance from the st
 
 As you or the AI moves across the grid, you can choose to display or hide all visited cells -> this visual can give you a good idea of the thinking process behind the search algorithm's decisions or help you keep track of your own progress.
 
-To adjust the maze size, change the dimensions on line 926: Currently, it says: `MazeWorld g = new MazeWorld(20, 10);` Adjust the values however you want up to a 100x60 maze.
+To adjust the maze size, change the dimensions on line 926: 
+Currently, it says: `MazeWorld g = new MazeWorld(20, 10);` Adjust the values however you want up to a 100x60 maze.
 
 Below is a demo of the game in which I demonstrate each of the features. Visited cells are highlighted in light blue, and their display can be turned on or off. First, I complete the maze manually. Then, I have the AI use DFS to solve the maze. Next, the AI uses BFS. Following this, I demonstrate the gradients and then create a new maze in four different ways: with a wall-knockdown animation, with horizontal bias, with vertical bias, and without any bias. You can follow the instructions on the right of the screen to do the same as you play.
 
